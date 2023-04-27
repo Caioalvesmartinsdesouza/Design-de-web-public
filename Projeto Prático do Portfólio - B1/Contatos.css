@@ -13,7 +13,7 @@ body {
     margin: 0%;
     background-color: rgb(209, 209, 255);
 }
-
+  
 nav {
     display: flex;
     align-items: center;
@@ -45,11 +45,12 @@ nav a {
     width: 95%;
 }
 
-a:hover {
+nav a:hover {
     background-color: white;
     color: black;
     cursor: pointer;
 }
+
 .container1 {
     display: flex;
     flex-direction: column;
@@ -57,8 +58,16 @@ a:hover {
     align-items: center;
     height: 550px;
     width: 30%;
-    padding-left: 5%;
-    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    gap: 10px;
 }
 
 .container2 {
@@ -68,4 +77,34 @@ a:hover {
     height: 550px;
     width: 100%;
     background-color: rgb(209, 209, 255);
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+button a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+button a:hover {
+    color: white;
 }
