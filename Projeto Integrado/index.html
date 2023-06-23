@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="index.css">
+<script src="script.js"></script>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,19 +14,19 @@
     <header>
         <nav class="nav1">
             <ul>
-                <a href=>PESQUISAR...</a>
+                <a onclick="avisologin()">PESQUISAR...</a>
             </ul>
         </nav>
         <nav class="nav2">
             <ul>
-                <a href=>INÍCIO</a>
-                <a href=>PERFIL</a>
-                <a href=>AJUDA</a>
+                <a onclick="avisologin()">INÍCIO</a>
+                <a onclick="avisologin()">PERFIL</a>
+                <a onclick="avisologin()">AJUDA</a>
             </ul>
         </nav>
         <nav class="nav3">
             <ul>
-                <a href=>ENTRAR</a>
+                <a href="index.html">ENTRAR</a>
             </ul>
         </nav>
     </header>
@@ -36,10 +37,10 @@
             <h1>FAÇA LOGIN OU CRIE UM ATRAVES DA CHAVE ENVIADA POR SEU COORDENADOR.</h1>
             <h2>VERIFIQUE SEU EMAIL PARA PODER FAZER SEU CADASTRO!!!</h2>
             <h1>EMAIL OU CÓDIGO:</h1>
-            <p class="campo_pra_preencher">INSIRA SEU EMAIL OU CÓDIGO</p>
+            <input type="text" placeholder="INSIRA SEU EMAIL OU CÓDIGO" class="campo_pra_preencher">
             <h1>SENHA:</h1>
-            <p class="campo_pra_preencher">INSIRA SUA SENHA</p>
-            <p class="campo_pra_preencher">Entrar</p>
+            <input type="text" placeholder="INSIRA SUA SENHA" class="campo_pra_preencher">
+            <a class="campo_pra_preencher" href="home.html">Entrar</a>
             <p><a href=>CADASTRE-SE AQUI!</a></p>
 
             </ul>
