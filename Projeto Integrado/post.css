@@ -138,6 +138,8 @@ a:hover {
     background-color: #D9D9D9;
     border: 2px #001F6F solid;
     border-radius: 10px;
+    padding-bottom: 4%;
+    gap: 4%;
 }
 
 .amigos{
@@ -159,4 +161,16 @@ a:hover {
     padding: 5px;
     border-radius: 5px;
     color: black;
+}
+
+.campo_pra_preencher {
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 5px;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
 }
